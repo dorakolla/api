@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>New Quote</title>
+</head>
+<body>
+    <form action="" >
+        <div class="newQuote">
+            <label for=""><h1>Choose Content type</h1></label>
+            <select name="content" id="contentType">
+                <option value="Knowledge">Knowledge</option>
+                <option value="Trading">Trading</option>
+                <option value="Mind">Mind</option>
+            </select>
+            <div class="quoteInput">
+                <label for=""><h1>New Quote</h1></label>
+                <input type="text" name="" id="newQuote" placeholder="Today's Learning"><br>
+                <button type="button" id="submitButton" onclick="getValue()">Submit</button>
+            </div>
+            <div class="quoteMessage">
+                <h3>Quote added to database &#128512;</h3>
+            </div>
+        </div>
+       
+    </form>
+</body>
+<footer>
+    <script src="index.js"></script>
+</footer>
+</html>

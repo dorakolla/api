@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Crimson Text', serif;
+}
+.quoteMessage{
+    display: none;
+    margin-top: 150px;
+    text-align: center;
+}
+#submitButton{
+    width: fit-content;
+    margin: auto;
+}
+.quoteInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #11009E;
+    align-items: center;
+    justify-content: center;
+}
+.fa-arrow-up-right-from-square{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+body{
+    background-color: #BFCFE7;
+}
+.refresh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonContainer{
+    display: flex;
+    padding: 20px;
+    margin: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttonContainer button{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #11009E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.backButton{
+    display: none;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#backButton{
+    margin-top: 180px;
+    width: 150px;
+    height: 40px;
+    background-color: #11009E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.mindButton{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mindButton{
+    margin-top: 180px;
+    width: 150px;
+    height: 40px;
+    background-color: #11009E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.quote{
+    margin-top: 150px;
+    display: none;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.quote:hover{
+    transform: scale(1.05);
+    transition: trasform 0.3s ease-in-out;
+    
+
+}
+
+.fa-solid{
+    font-size: 30px;
+
+}
+.newQuote{
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#newQuote{
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 600px;
+    height: 70px;
+    font-size: 2rem;
+    border-color: #11009E;
+    text-decoration:dashed;
+    background-color: lightyellow;
+}
+button[type="button"]{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+button[type="button"]:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+select {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: #555;
+}
