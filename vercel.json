@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "files": [
+    "index.js",
+    "server.js"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"  // Include any other dependencies your project needs
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
