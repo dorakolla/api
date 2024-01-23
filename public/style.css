@@ -34,9 +34,6 @@
     margin-left: 100px;
 }
 
-body{
-    background-color: #BFCFE7;
-}
 .refresh{
     display: flex;
     align-items: center;
@@ -160,3 +157,12 @@ label {
     font-size: 18px;
     color: #555;
 }
+.fa-arrows-rotate {
+    font-size: 30px; /* Set your preferred font size */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .fa-arrows-rotate:hover {
+    transform: rotate(50deg); 
+  }
